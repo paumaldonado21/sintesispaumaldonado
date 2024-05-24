@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empresa de Màrqueting Digital</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <!-- Menú de navegació -->
+  <nav class="navbar is-primary">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#">Empresa</a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#inici">Inici</a>
+        <a class="navbar-item" href="#sobre-nosaltres">Sobre Nosaltres</a>
+        <a class="navbar-item" href="#serveis">Serveis</a>
+        <a class="navbar-item" href="#contacte">Contacte</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Secció Inici -->
+  <section id="inici" class="section">
+    <div class="container">
+      <h1 class="title">Benvinguts a la nostra Empresa de Màrqueting Digital</h1>
+      <p class="subtitle">Ofereixem solucions innovadores per a impulsar el teu negoci.</p>
+    </div>
+  </section>
+
+  <!-- Secció Sobre Nosaltres -->
+  <section id="sobre-nosaltres" class="section">
+    <div class="container">
+      <h2 class="title">Sobre Nosaltres</h2>
+      <p>Som una empresa amb anys d'experiència en el sector del màrqueting digital...</p>
+    </div>
+  </section>
+
+  <!-- Secció Serveis -->
+  <section id="serveis" class="section">
+    <div class="container">
+      <h2 class="title">Serveis</h2>
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://via.placeholder.com/300" alt="Servei 1">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Assesorament</p>
+              <p class="content"></p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://via.placeholder.com/300" alt="Servei 2">
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Millora de presencia virtual</p>
+              <p class="content"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secció Contacte -->
+  <section id="contacte" class="section">
+    <div class="container">
+      <h2 class="title">Contacte</h2>
+      <form id="contactForm">
+        <div class="field">
+          <label class="label">Nom</label>
+          <div class="control">
+            <input class="input" type="text" id="name" placeholder="El teu nom">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Correu electrònic</label>
+          <div class="control">
+            <input class="input" type="email" id="email" placeholder="El teu correu electrònic">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Missatge</label>
+          <div class="control">
+            <textarea class="textarea" id="message" placeholder="El teu missatge"></textarea>
+          </div>
+        </div>
+        <div class="control">
+          <button class="button is-primary" type="submit">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

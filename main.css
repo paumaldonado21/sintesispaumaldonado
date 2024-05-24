@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  #inici {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
